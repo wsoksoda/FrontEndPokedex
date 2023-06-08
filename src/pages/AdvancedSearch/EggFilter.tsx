@@ -1,6 +1,6 @@
-import React from "react";
-
-interface Props {}
+interface Props {
+  choice: string;
+}
 
 function EggFilter(props: Props) {
   const {} = props;

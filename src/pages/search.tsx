@@ -2,11 +2,9 @@ import axios from "axios";
 import React from "react";
 import { useEffect } from "react";
 import { Button, Form, OverlayTrigger, Popover } from "react-bootstrap";
-import { Navigate, useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function Search() {
-  const { pageable } = useParams();
-
   const navigate = useNavigate();
 
   let searchId: any;
@@ -46,10 +44,7 @@ function Search() {
   }
 
   return (
-    <Form
-      className="d-flex"
-      onSubmit={(toPokemon) => toPokemon.preventDefault()}
-    >
+    <Form className="d-flex" onSubmit={toPokemon}>
       <Form.Control
         type="search"
         placeholder="Search"

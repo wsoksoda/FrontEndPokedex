@@ -1,5 +1,3 @@
-import axios from "axios";
-import React, { useEffect } from "react";
 import { Card } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { pokemon, statColor, type } from "../pokemonInterface";

@@ -2,9 +2,8 @@ import React, { useEffect } from "react";
 import axios from "axios";
 import { pokemon } from "../../pokemonInterface";
 import "./../../assets/index.css";
-import { Link, useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import PokemonNavbar from "../pokemonNavbar";
-import Pokemonlist from "../pokemonCard";
 import PokemonCard from "../pokemonCard";
 
 function Home() {

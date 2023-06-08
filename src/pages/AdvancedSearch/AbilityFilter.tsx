@@ -1,6 +1,6 @@
-import React from "react";
-
-interface Props {}
+interface Props {
+  choice: string;
+}
 
 function AbilityFilter(props: Props) {
   const {} = props;
