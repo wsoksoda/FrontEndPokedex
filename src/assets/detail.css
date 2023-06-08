@@ -1,0 +1,25 @@
+.body{
+  background-image: linear-gradient(to left, #41295a,#2F0743 );
+  min-height: 120vh;
+}
+
+h1{
+    text-align: center;
+}
+
+.display{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .two{
+    display: "block";
+    margin: "auto";
+  }
+
+  .centerText{
+    width: 25rem;
+    padding: 7rem;
+  }
+
